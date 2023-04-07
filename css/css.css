@@ -1,0 +1,102 @@
+/* reset css*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    padding-bottom: calc(1014/1160*100%);
+    background-image: url('/90p/css/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 40px;
+}
+
+.color {
+    color: white
+}
+
+#main .title-heading {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+#main .sub-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#main #title {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#logo-content .around-box img {
+    width: 152px !important;
+    height: 124px !important;
+}
+
+#main .border {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#main .border img {
+    max-width: 80%;
+}
+
+#footer .main-title {
+    padding-top: 65px;
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    margin-top: 100px;
+}
+
+#logo-content {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    padding: 0 100px;
+}
+
+#logo-content .around-box {
+    width: 200px;
+    height: 207px;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 24px 0px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin: 0 1px;
+}
+
+.name-logo {
+    color: white;
+}
+
+.footer-box {
+    background-color: #96c052;
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+}
+
+#logo-content .around-box .icon {
+    padding: 0 13px !important;
+}
